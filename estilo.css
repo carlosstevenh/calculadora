@@ -1,0 +1,95 @@
+h2{
+	text-align:center;
+	font-family:  "Courier New";
+	color: #000080;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.divForm{
+	background: #B0E0E6;
+	width: 30%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid #000080;
+}
+
+fieldset{
+	border: 2px solid #000080;
+	border-radius: 10px;
+	margin: 10px 10px;
+	padding: 10px 20px;
+}
+
+legend{
+	font-size: 18px;
+	font-family: "Courier New";
+	color: #191970;
+	font-weight: bold;
+}
+label{
+	font-size: 15px;
+	font-family: "Courier New";
+	color: #191970;
+	font-weight: bold;
+	text-align: center;
+}
+input{
+	border: 2px solid #000080;
+	background: #E0FFFF;
+	height: 25px;
+	width: 330px;
+}
+input:focus{
+	border: 2px solid #000080;
+	background: #7FFFD4;
+	height: 25px;
+	color: #191970;
+	font-family: "Courier New";
+	font-weight: bold;
+	width: 330px;
+}
+input[type="text"]{
+	border: 2px solid #000080;
+	height: 25px;
+	color: #191970;
+	font-family: "Courier New";
+	font-weight: bold;
+	width: 330px;
+}
+button{
+	height: 50px;
+	width: 50px;
+	font-size: 40px;
+	font-family: "Courier New";
+	color: #191970;
+	font-weight:  bold;
+	padding: 2px 2px;
+	background: #E0FFFF;
+	border: 2px solid #000080;
+	border-radius: 50px;
+	margin-right: 32px;
+}
+p{
+	font-size: 15px;
+	font-family: "Courier New";
+	color: #191970;
+	font-weight:  bold;
+	margin-top: 2px;
+}
+span{
+	font-size: 15px;
+	font-family: "Courier New";
+	color: #191970;
+	font-weight:  bold;
+	margin-top: 2px;
+}
+body{
+	background: #DCDCDC;
+}
+.numErr{
+	font-size: 10px;
+	font-family: "Courier New";
+	color: red;
+	font-weight:  bold;
+	margin-top: 2px;
+}

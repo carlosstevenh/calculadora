@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css" media="">
+</head>
+<body>
+	<div class="divForm">
+		<h2>Calculadora</h2>
+		<fieldset class="datos">
+			<legend>Ingrese los numeros</legend>
+			<div>
+				<label class="label">Primer numero</label>
+				<br>
+				<input class="input" name="num1" id = "num1" type="text" required=""></input>
+				<br>
+				<span class="numErr" name="num1Erro" id="num1Erro"></span>
+			</div>
+
+			<div>
+				<label class="label">Segundo numero</label>
+				<br>
+				<input class="input" name="num2" id="num2" type="text" required=""></input>
+				<br>
+				<span class="numErr" name="num2Erro" id="num2Erro"></span>
+			</div>
+		</fieldset>
+		<fieldset class="operaciones">
+			<legend>Operaciones basicas</legend>
+			<div>
+				<button class="sumar" id="sumar" name="sumar">+</button>
+				<button class="restar" id="restar" name="restar">-</button>
+				<button class="multiplicar" id="multiplicar" name="multiplicar">x</button>
+				<button class="dividir" id="dividir" name="dividir">/</button>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Resultado</legend>
+			<div>
+				<p>El resultado <span class="resultado" name="res" id="res"></span></p>
+			</div>
+		</fieldset>
+		<br>
+	</div>
+	<script type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
